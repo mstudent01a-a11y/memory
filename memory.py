@@ -2,14 +2,12 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QVBoxLayout, QRadioButton, QHBoxLayout, QGroupBox, QButtonGroup
 from random import*
 
-
 app = QApplication([])
 window = QWidget()
 window.setWindowTitle('Memo card')
 window.resize(400, 200)
 window.total = 1
 window.score = 0
-
 
 '''Интерфейс приложения Memory Card'''
 btn_OK = QPushButton('Ответить')
